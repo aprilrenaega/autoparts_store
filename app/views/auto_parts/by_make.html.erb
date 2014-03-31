@@ -1,0 +1,47 @@
+
+
+<h1 id="header">Parts By Make</h1>
+
+<table id="table">
+
+ <thead>
+
+  <tr>
+
+   <th>Name</th>
+
+   <th>Description</th>
+
+   <th>Price</th>
+
+   <th>Vehicle make</th>
+
+   <th>Vehicle model</th>
+
+  </tr>
+
+ </thead>
+
+ <tbody>
+
+  <% @auto_parts.each do |auto_part| %>
+
+   <tr>
+
+    <td><%= auto_part.name %></td>
+
+    <td><%= auto_part.description %></td>
+
+    <td><%= auto_part.price %></td>
+
+    <td><%= auto_part.vehicle_make %></td>
+
+    <td><%= auto_part.vehicle_model %></td>
+
+   </tr>
+
+  <% end %>
+
+ </tbody>
+
+</table>

@@ -1,0 +1,29 @@
+table, th, td
+{
+border: 1px solid black;
+}
+
+td
+{
+text-align:center;
+}
+
+table, td, th
+{
+border:1px solid #8A1629;
+}
+th
+{
+background-color: #8A1629;
+color:white;
+border: gray 2px;
+}
+
+table 
+{
+width:100%;
+}
+th
+{
+height:50px;
+}
